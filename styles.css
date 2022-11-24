@@ -1,10 +1,48 @@
-h1 {
-    text-align: center;
-    color: red;
+.navbar {
+    background-color: black;
 }
 
-p {
+.d-flex {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.link {
+    padding: 1rem 0;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
     font-size: 2rem;
-    text-align: center;
-    color: blue;
+    margin-right: 1rem;
+}
+
+.link a:hover {
+    color: gold;
+}
+
+.search {
+    padding: 1rem;
+}
+
+button {
+    padding: 0.7rem;
+    border-radius: 0.8rem;
+}
+
+.logo {
+    gap: 0;
+}
+
+.a {
+    background-color: aqua;
+}
+
+.b {
+    background-color: blanchedalmond;
 }
